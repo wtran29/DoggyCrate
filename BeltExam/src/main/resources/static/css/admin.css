@@ -1,0 +1,134 @@
+@charset "ISO-8859-1";
+
+body{
+	background: aliceblue;
+}
+
+fieldset {
+	border: 2px solid black;
+	background: gainsboro;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+span.name {
+	color: red;
+	text-shadow: 0px 1px black, 0px 1px black;
+}
+div.header{
+	display: inline-block;
+	margin:	0 auto;
+}
+img.logo {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 auto;
+	margin-left: 20px;
+	
+}
+
+h1.title {
+	color: white;
+	text-shadow: 0px 1px 2px black, 0px 1px 5px black, 0px -1px black;
+	display: inline-block;
+	vertical-align: bottom;
+	margin: 0 auto;
+	margin-right: 134px;
+	padding-bottom: 10px;
+}
+div.logout {
+	display: inline-block;
+	vertical-align: bottom;
+	margin-bottom: 15px;
+}
+
+input.logout-button {
+	background: #772120;
+	color: white;
+	height: 25px;
+	font-weight: bold;
+	border: none;
+	width: 100px;
+}
+
+h3 {
+	color: black;
+	font-weight: bold;
+}
+
+tr:nth-child(even){
+	background-color: #93caed;
+}
+
+tr:nth-child(odd){
+	background-color: #457b9d;
+	color: white;
+}
+table {
+	width: 100%;
+	font-family: monospace;
+	border-collapse: collapse;
+}
+td, th {
+   	border: 1px solid black;
+   	padding: 8px;
+}
+
+tr:hover {
+	background-color: #f1faee;
+	color: black;
+}
+tr:hover a{
+	color: darkmagenta;
+}
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #e63946;
+    color: white;
+}
+
+td a {
+	color: white;
+}
+
+fieldset.create {
+	width: 320px;
+	margin-top: 20px;
+	
+}
+fieldset.create p {
+	text-align: right;
+	padding-right: 15px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	
+}
+
+.desc {
+	vertical-align: top;
+}
+
+fieldset.create h2 {
+	color: red;
+	text-shadow: 0px 1px black, 0px 1px black;
+	text-align: center;
+}
+
+input.create-button {
+	width: 290px;
+	height: 30px;
+	color: white;
+	font-weight: bold;
+	background: red;
+	border: none;
+	margin-left: 14px;
+	margin-bottom: 5px;
+}
+
+fieldset.create label {
+	color: black;
+	font-family: sans-serif;
+}
+

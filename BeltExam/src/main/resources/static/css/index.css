@@ -1,0 +1,221 @@
+@charset "ISO-8859-1";
+
+html {
+	content: "";
+	background: url('/images/dogwalk.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	width: 100%;
+	height: 100%;
+}
+
+fieldset.login {
+	width: 300px;
+	background: cornflowerblue;
+	opacity: 0.9;
+	text-align: center;
+	margin: 0 auto;
+}
+
+fieldset.login p {
+	margin: 0 auto;
+	margin-bottom: 10px;
+	text-align: right;
+	padding-right: 29px;
+}
+
+fieldset.login label{
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+fieldset.login h3, fieldset.register h3 {
+	font-family: cursive;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+h3 {
+	color: white;
+}
+
+/* div.header {
+	display:inline;
+} */
+
+div.header h1, div.header h3 {
+	display: inline-block;
+	vertical-align: top;
+}
+
+div.header h3 {
+	padding-top: 13px;
+	padding-left: 4px;
+	padding-right: 74px;
+	text-shadow: 0px 1px 2px black, 2px 1px 5px black, 0px -1px black, -1px 0px black;
+	
+}
+
+input.login-button {
+	width: 240px;
+	height: 25px;
+	background: red;
+	color: white;
+	font-weight: bold;
+	border: none;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+div.header h1 {
+	color: red;
+	text-shadow: 0px 1px black, 0px 1px black;
+}
+
+fieldset.register {
+	background: #93caed;
+	width: 400px;
+	text-align: center;
+	opacity: 0.9;
+	vertical-align: top;
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+}
+fieldset.register p {
+	text-align: right;
+	padding-right: 31px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+fieldset.register label {
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+input.register-button {
+	background: #772120;
+	color: white;
+	height: 25px;
+	width: 335px;
+	border: none;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+
+
+div.about {
+	width: 400px;
+	padding: 5px;
+	margin:0 auto;
+	margin-left: 86px;
+	text-align: left;
+	background: white;
+	opacity: 0.7;
+	display: inline-block;
+	margin-right: 48px;
+}
+div.about h3 {
+	font-family: sans-serif;
+	color: black;
+	font-weight: inherit;
+	margin-left: 20px;	
+	text-align: left;
+	margin-bottom: 0;
+}
+
+div.about p.answer {
+	text-align: left;
+	color: initial;
+	font-family: sans-serif;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+span.question {
+	color: royalblue;
+	font-weight: bold;
+}
+
+div.about p.join {
+	color: navy;
+	font-family: cursive;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-weight: bold;
+	margin: 0 auto;
+}
+div.packages {
+	display: inline-block;
+	width: 450px;
+	margin-bottom: 10px;
+}
+
+div.small, div.medium, div.large, div.giant {
+	display: inline-block;
+	vertical-align: top;
+}
+
+div.small h4, div.medium h4, div.large h4, div.giant h4 {
+	text-align: center;
+	color: #e63946;
+	margin: 0 auto;
+}
+div.login-reg {
+	display: inline-block;
+	vertical-align: top;
+}
+
+div.paw {
+	text-align: left;
+	margin: 0 auto;
+	position: absolute;
+	margin-left: 34px;
+	margin-top: 41px;
+}
+
+h3.last {
+	margin-top: 0;
+}
+
+div.nav-bar {
+	background: midnightblue;
+	opacity: .9;
+	padding-left: 5px;
+	padding-right: 5px;
+	display:inline-block;
+	vertical-align: top;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+ul {
+	display: inline-block;
+	padding: 0;
+	font-weight: bold;
+}
+ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+li a {
+	color: white;
+	padding: 5px;
+	font-family: sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+}
+li a:hover {
+	opacity: 0.6;
+	color: white;
+	padding: 5px;
+	font-family: sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+}

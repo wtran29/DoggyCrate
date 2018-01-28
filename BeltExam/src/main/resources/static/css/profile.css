@@ -1,0 +1,104 @@
+@charset "ISO-8859-1";
+
+body {
+	background-image: url('../images/bg1.jpg');
+	color: black;
+	background-size: cover;
+	background-repeat: no-repeat;	
+	
+}
+div.nav-bar {
+	display:inline;
+	margin: 0 auto;
+}
+ul {
+	display: inline-block;
+	padding: 0;
+	font-weight: bold;
+}
+ul li {
+	list-style: none;
+	display: inline-block;
+}
+	
+div.logout {
+	display: inline-block;
+	vertical-align: top;
+	width: 100px;
+}
+
+li a {
+	color: white;
+	padding: 10px;
+	font-family: sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+}
+li a:hover {
+	opacity: 0.6;
+	color: black;
+	padding: 10px;
+	font-family: sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+}
+input.logout {
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	margin-top: 10px;
+	background: #772120;
+	border: none;
+	color: white;
+	font-weight: bold;
+}
+
+a.back {
+	display: block;
+}
+
+.name {
+	color: red;
+	text-shadow: 0px 1px black, 0px 1px black;
+}
+
+h1.title {
+	color: white;
+	text-shadow: 0px 1px 2px black, 0px 1px 5px black, 0px -1px black;
+	margin: 0 auto;
+	margin-right: 40px;
+	padding-bottom: 10px;
+	display: inline-block;
+}
+
+span.username {
+	color: black;
+	text-shadow: none;
+}
+
+.thanks {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+div.thanks img {
+	border: 5px solid black;
+}
+div.section {
+	width:500px;
+	border: 3px solid black;
+	padding: 10px;
+	background: #f1faee;
+	margin-left: 20px;
+	color: black;
+	margin: 0 auto;
+	
+}
+
+div.section h3 {
+	color: red;
+	text-shadow: 0px 1px black, 0px 1px black;
+	margin: 0 auto;
+}
